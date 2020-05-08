@@ -1,0 +1,305 @@
+.container-fluid{
+    background-color: rgb(243, 237, 237);
+}
+.main{
+    background-color: blueviolet ;width: 100%; height: 40px; display: inline-block;
+}
+.a{
+    width: 25px;  margin-left: 30px
+}
+.b{
+    width: 25px;  margin-left: 10px
+}
+.c{
+    width: 25px;  margin-left: 10px
+
+}
+.d{
+    width: 25px;  margin-left: 10px
+
+}
+.para{
+    margin-left:200px ;
+    display: inline-block;
+    margin-top: 6px;
+    color: white;
+    font-weight: bold;
+}
+.main1{
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    
+    
+}
+.imgs{
+    width: 350;
+    
+    display: inline-block;
+}
+.hul{
+    display: inline-block;
+    
+}
+ul a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 6px;
+    margin: 20px;
+    font-family: sans-serif;
+    
+}
+ul a:hover{
+    background-color: blue;
+    color: white;
+    border-radius:14px;
+    text-decoration: none
+}
+.carousel-inner{
+    margin-top: 20px;
+}
+
+.news{
+    color: white;
+    background-color: blue;
+    margin-top: 5px;
+}
+.intro{
+    text-align: center;
+    color: blue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.intro span{
+    color: red;
+}
+.favicon{
+    margin-left: 49%;
+    
+}
+.int{
+     margin-left: 15%;
+    inline-size: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.main2{
+    width: 100%;
+    background-color: rgb(98, 98, 230);
+    height: 300px;
+    
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 100px;
+
+}
+h5{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    
+}
+.h11{
+    color: blue;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.h11 span{
+    color: red;
+}
+.himg{
+    width: 70px;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+h4{
+    color: blue;
+    text-align: center;
+}
+.dif{
+    height: 200px;
+    background-color:white;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    box-shadow: 10px 10px whitesmoke;
+    
+}
+.mission{
+    color: blue;
+    margin-top: -1em;
+    font-family: initial;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 30px;
+    display: inline-block;
+}
+.mission1{
+    color: blue;
+    margin-top: -1em;
+    font-family: initial;
+    display: inline-block;
+    
+   
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.mis{
+    height: 100px;
+    
+    background-color:rgb(208, 214, 218);
+    margin-left: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+  
+    
+} 
+h3{
+    color:  blueviolet;
+    margin-top: 30px;
+}
+.parag{
+    text-transform: capitalize;
+    margin-left:60px;
+    margin-top: 10px;
+}
+.imegs{
+    width: 210px;
+    height: 170px;
+    margin-left: 20px;
+    margin-top: 40px;
+   display: inline;
+   
+}
+.connect{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(49, 49, 48);
+    margin-top: 100px;
+    
+}
+.ch5{
+    color: white;
+    padding-top: 4em;
+    text-align: justify;
+    padding-left: 30em;
+    text-decoration: underline;
+    display: inline-block;
+}
+.cp{
+    color: lightskyblue;
+    margin-left: 50px;
+}
+.cp span{
+    color: lightskyblue;
+    margin-left: 50px;
+}
+.with{
+    color: white;
+    
+    display: inline-block;
+    margin-left: 200px;
+    
+}
+
+
+@media (min-width: 400px) { 
+    .main{
+        
+        height: 150px;
+        display: block; 
+    }
+    .para{
+        margin-left: 10px;
+    }
+    .imgs{
+        width: 200px;
+    }
+    .main2{
+        
+        background-color: rgb(98, 98, 230);
+        height: 900px;
+    }
+   
+    
+ }
+ 
+
+@media (min-width: 768px) { 
+    .main{
+    height: 100px;
+    display: block;
+    }
+    .para{
+        margin-left: 50px;
+    }
+    .imgs{
+        width: 250px;
+    }
+    .main2{
+        
+        background-color: rgb(98, 98, 230);
+        height: 900px;
+    }
+    
+   
+    
+    
+ }
+
+
+@media (min-width: 800px) { 
+    .main{
+        height: 90px;
+        display: block;
+    }
+    .para{
+        margin-left: 10px;
+    }
+    .imgs{
+        width: 300px;
+    }
+    .main2{
+        
+        background-color: rgb(98, 98, 230);
+        height: 430px;
+    }
+    
+    
+ }
+ 
+
+
+@media (min-width: 1200px) { 
+    .main{
+        height: 40px;
+    display: inline-block;
+
+    }
+    .para{
+        margin-left: 200px;
+    }
+    
+    .imgs{
+        width: 350px;
+    }
+    
+    .main2{
+       
+        background-color: rgb(98, 98, 230);
+        height: 300px;
+    }
+   
+ }
